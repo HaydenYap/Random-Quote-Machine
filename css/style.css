@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body{
+  background-color: pink;
+  color:color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+}
+button{
+  height: 4rem;
+}
+
+#quote-box{
+  background-color: white;
+  max-width: 50em;
+  border-radius: 5px;
+}
+
+#quote{
+  font-size: 20px;
+}
+
+#content{
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+}
+
+#buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+  padding: 8px 16px;
+  border-radius: 5px;
+  color: pink;
+}
+.button:hover{
+  text-decoration: none;
+  opacity: 0.5;
+  color: white;
+}
+
+
+#text{
+  padding: 4rem;
+  color: inherit;
+}
+
+#author{
+  padding: 2rem;
+  text-align: right;
+  color:inherit;
+}
