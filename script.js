@@ -26,10 +26,6 @@ $("#tweet-quote").click(function(){
   console.log("tweet quote requested")
 });
 
-function randomColorValue(){
-  return Math.floor(Math.random() * 256).toString(16);
-}
-
 function getQuote(){
   let randomIndex = Math.floor(Math.random() * quotes.length);
   let quoteInfo = quotes[randomIndex];
@@ -40,8 +36,8 @@ function getQuote(){
   });
 
   function randomColorValue(){
-  return Math.floor(Math.random() * 256).toString(16);
-}
+    return Math.floor(Math.random() * 256).toString(16);
+  }
 
   var red = randomColorValue();
   var green = randomColorValue();
